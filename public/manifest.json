@@ -1,0 +1,16 @@
+{
+    "name": "Meeting Helper",
+    "short_name": "Meeper",
+    "start_url": "/",
+    "background_color": "#6777ef",
+    "description": "Helper for all who stay with Meeper",
+    "display": "fullscreen",
+    "theme_color": "#6777ef",
+    "icons": [
+        {
+            "src": "android-chrome-512x512.PNG",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
