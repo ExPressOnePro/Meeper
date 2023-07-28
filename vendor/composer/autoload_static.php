@@ -560,6 +560,7 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
 
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Enums\\WeekDaysEnum' => __DIR__ . '/../..' . '/app/Enums/WeekDaysEnum.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\AuthenticatedSessionController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/AuthenticatedSessionController.php',
         'App\\Http\\Controllers\\Auth\\ConfirmablePasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmablePasswordController.php',
@@ -584,6 +585,7 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\Auth\\LoginRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Auth/LoginRequest.php',
         'App\\Http\\Requests\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ProfileUpdateRequest.php',
+        'App\\Models\\Audit' => __DIR__ . '/../..' . '/app/Models/Audit.php',
         'App\\Models\\CongregationRequests' => __DIR__ . '/../..' . '/app/Models/CongregationRequests.php',
         'App\\Models\\Congregations' => __DIR__ . '/../..' . '/app/Models/Congregations.php',
         'App\\Models\\Groups' => __DIR__ . '/../..' . '/app/Models/Groups.php',
@@ -605,6 +607,7 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Traits\\HasRolesAndPermissions' => __DIR__ . '/../..' . '/app/Traits/HasRolesAndPermissions.php',
         'App\\View\\Components\\AppLayout' => __DIR__ . '/../..' . '/app/View/Components/AppLayout.php',
         'App\\View\\Components\\GuestLayout' => __DIR__ . '/../..' . '/app/View/Components/GuestLayout.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
