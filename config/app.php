@@ -163,6 +163,7 @@ return [
         /*
          * Application Service Providers...
          */
+        OwenIt\Auditing\AuditingServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,
         Ladumor\LaravelPwa\PWAServiceProvider::class,
         App\Providers\AppServiceProvider::class,
