@@ -163,6 +163,7 @@ return [
         /*
          * Application Service Providers...
          */
+        Jenssegers\Agent\AgentServiceProvider::class,
         Ladumor\LaravelPwa\PWAServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
