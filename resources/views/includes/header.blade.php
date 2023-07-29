@@ -25,8 +25,8 @@
         }
 
     </style>
-    @inject('agent', 'Jenssegers\Agent\Agent')
-    @if($agent->isPhone())
+{{--    @inject('mobile_detect', 'Mobile_Detect')--}}
+    @if($agent->isMobile())
         <!--Profile-->
         @if(Request::is('profile*'))
             <div class="navbar" id="navbar">
@@ -51,7 +51,7 @@
             <header class="main-header bg-white d-flex justify-content-between p-2">
                 <div class="header-toggle">
                     {{--<a class="dropdown-item" href="{{ route('migrations') }}"><i class="fa-solid fa-key"></i></a>--}}
-
+                    @role('Developer')
                     <div class="dropdown">
                         <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Управляющие функции
@@ -62,7 +62,7 @@
 {{--                            <a class="dropdown-item" href="{{ route('rolesPermissionsPage') }}"><i class="fa-solid fa-key"></i> Роли и права </a>--}}
 {{--                        </div>--}}
                     </div>
-
+                    @endrole
                     {{--@role('Developer')
                     <div class="dropdown dropdown">
                         <i class="fa-solid fa-gear text-muted header-icon" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
@@ -85,11 +85,11 @@
                         <i class="fa-solid fa-language header-icon" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <div class="menu-icon-grid">
-{{--                                @foreach (Config::get('languages') as $lang => $language)--}}
-{{--                                    @if ($lang != App::getLocale())--}}
-{{--                                        <a href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>--}}
-{{--                                    @endif--}}
-{{--                                @endforeach--}}
+                                @foreach (Config::get('languages') as $lang => $language)
+                                    @if ($lang != App::getLocale())
+                                        <a href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
+                                    @endif
+                                @endforeach
                             </div>
                         </div>
                     </div>
@@ -136,11 +136,11 @@
                 <div class="dropdown-toggle dropdown">
                     <i class="fa-solid fa-language header-icon" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-{{--                        @foreach (Config::get('languages') as $lang => $language)--}}
-{{--                            @if ($lang != App::getLocale())--}}
-{{--                                <a class="dropdown-item" href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>--}}
-{{--                            @endif--}}
-{{--                        @endforeach--}}
+                        @foreach (Config::get('languages') as $lang => $language)
+                            @if ($lang != App::getLocale())
+                                <a class="dropdown-item" href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
+                            @endif
+                        @endforeach
                     </div>
                 </div>
 
@@ -157,7 +157,7 @@
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <div class="menu-icon-grid">
-{{--                            <a href="{{ route('profile', Auth::id()) }}">--}}
+                            <a href="{{ route('profile', Auth::id()) }}">
                                 <i class="fa-solid fa-user text-info"></i> Аккаунт
                             </a>
                             <a href="#"><div class="spinner spinner-primary mr-3"></div> Разработка </a>

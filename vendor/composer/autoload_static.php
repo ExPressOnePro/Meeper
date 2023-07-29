@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
+class ComposerStaticInit1cf5189ca733aadb2244b96b368b54b6
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -27,7 +27,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '63a825c721352937ef5e35d85859b99f' => __DIR__ . '/..' . '/irazasyed/larasupport/helpers.php',
         '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
         'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
@@ -107,10 +106,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
         ),
-        'O' => 
-        array (
-            'OwenIt\\Auditing\\' => 16,
-        ),
         'N' => 
         array (
             'NunoMaduro\\Collision\\' => 21,
@@ -141,7 +136,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         ),
         'I' => 
         array (
-            'Irazasyed\\Larasupport\\' => 22,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\' => 11,
         ),
@@ -385,10 +379,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
-        'OwenIt\\Auditing\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/owen-it/laravel-auditing/src',
-        ),
         'NunoMaduro\\Collision\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
@@ -452,10 +442,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         'Jaybizzle\\CrawlerDetect\\' => 
         array (
             0 => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src',
-        ),
-        'Irazasyed\\Larasupport\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/irazasyed/larasupport/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -584,22 +570,7 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\Auth\\LoginRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Auth/LoginRequest.php',
         'App\\Http\\Requests\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ProfileUpdateRequest.php',
-        'App\\Models\\CongregationRequests' => __DIR__ . '/../..' . '/app/Models/CongregationRequests.php',
-        'App\\Models\\Congregations' => __DIR__ . '/../..' . '/app/Models/Congregations.php',
-        'App\\Models\\Groups' => __DIR__ . '/../..' . '/app/Models/Groups.php',
-        'App\\Models\\Permissions' => __DIR__ . '/../..' . '/app/Models/Permissions.php',
-        'App\\Models\\PersonalReports' => __DIR__ . '/../..' . '/app/Models/PersonalReports.php',
-        'App\\Models\\Role' => __DIR__ . '/../..' . '/app/Models/Role.php',
-        'App\\Models\\RolesPermissions' => __DIR__ . '/../..' . '/app/Models/RolesPermissions.php',
-        'App\\Models\\StandPublishers' => __DIR__ . '/../..' . '/app/Models/StandPublishers.php',
-        'App\\Models\\StandPublishersHistory' => __DIR__ . '/../..' . '/app/Models/StandPublishersHistory.php',
-        'App\\Models\\StandReports' => __DIR__ . '/../..' . '/app/Models/StandReports.php',
-        'App\\Models\\StandTemplates' => __DIR__ . '/../..' . '/app/Models/StandTemplates.php',
-        'App\\Models\\Stands' => __DIR__ . '/../..' . '/app/Models/Stands.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
-        'App\\Models\\UsersGroups' => __DIR__ . '/../..' . '/app/Models/UsersGroups.php',
-        'App\\Models\\UsersPermissions' => __DIR__ . '/../..' . '/app/Models/UsersPermissions.php',
-        'App\\Models\\UsersRoles' => __DIR__ . '/../..' . '/app/Models/UsersRoles.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -2795,8 +2766,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
-        'Irazasyed\\Larasupport\\Console\\VendorPublishCommand' => __DIR__ . '/..' . '/irazasyed/larasupport/src/Console/VendorPublishCommand.php',
-        'Irazasyed\\Larasupport\\Providers\\ArtisanServiceProvider' => __DIR__ . '/..' . '/irazasyed/larasupport/src/Providers/ArtisanServiceProvider.php',
         'Jaybizzle\\CrawlerDetect\\CrawlerDetect' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/CrawlerDetect.php',
         'Jaybizzle\\CrawlerDetect\\Fixtures\\AbstractProvider' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/Fixtures/AbstractProvider.php',
         'Jaybizzle\\CrawlerDetect\\Fixtures\\Crawlers' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/Fixtures/Crawlers.php',
@@ -3518,44 +3487,6 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
         'NunoMaduro\\Collision\\Provider' => __DIR__ . '/..' . '/nunomaduro/collision/src/Provider.php',
         'NunoMaduro\\Collision\\SolutionsRepositories\\NullSolutionsRepository' => __DIR__ . '/..' . '/nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php',
         'NunoMaduro\\Collision\\Writer' => __DIR__ . '/..' . '/nunomaduro/collision/src/Writer.php',
-        'OwenIt\\Auditing\\Audit' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Audit.php',
-        'OwenIt\\Auditing\\Auditable' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Auditable.php',
-        'OwenIt\\Auditing\\AuditableObserver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/AuditableObserver.php',
-        'OwenIt\\Auditing\\AuditingEventServiceProvider' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/AuditingEventServiceProvider.php',
-        'OwenIt\\Auditing\\AuditingServiceProvider' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/AuditingServiceProvider.php',
-        'OwenIt\\Auditing\\Auditor' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Auditor.php',
-        'OwenIt\\Auditing\\Console\\AuditDriverCommand' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Console/AuditDriverCommand.php',
-        'OwenIt\\Auditing\\Console\\AuditResolverCommand' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Console/AuditResolverCommand.php',
-        'OwenIt\\Auditing\\Console\\InstallCommand' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Console/InstallCommand.php',
-        'OwenIt\\Auditing\\Contracts\\AttributeEncoder' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/AttributeEncoder.php',
-        'OwenIt\\Auditing\\Contracts\\AttributeModifier' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/AttributeModifier.php',
-        'OwenIt\\Auditing\\Contracts\\AttributeRedactor' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/AttributeRedactor.php',
-        'OwenIt\\Auditing\\Contracts\\Audit' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/Audit.php',
-        'OwenIt\\Auditing\\Contracts\\AuditDriver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/AuditDriver.php',
-        'OwenIt\\Auditing\\Contracts\\Auditable' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/Auditable.php',
-        'OwenIt\\Auditing\\Contracts\\Auditor' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/Auditor.php',
-        'OwenIt\\Auditing\\Contracts\\IpAddressResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/IpAddressResolver.php',
-        'OwenIt\\Auditing\\Contracts\\Resolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/Resolver.php',
-        'OwenIt\\Auditing\\Contracts\\UrlResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/UrlResolver.php',
-        'OwenIt\\Auditing\\Contracts\\UserAgentResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/UserAgentResolver.php',
-        'OwenIt\\Auditing\\Contracts\\UserResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Contracts/UserResolver.php',
-        'OwenIt\\Auditing\\Drivers\\Database' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Drivers/Database.php',
-        'OwenIt\\Auditing\\Encoders\\Base64Encoder' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Encoders/Base64Encoder.php',
-        'OwenIt\\Auditing\\Events\\AuditCustom' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Events/AuditCustom.php',
-        'OwenIt\\Auditing\\Events\\Audited' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Events/Audited.php',
-        'OwenIt\\Auditing\\Events\\Auditing' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Events/Auditing.php',
-        'OwenIt\\Auditing\\Exceptions\\AuditableTransitionException' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Exceptions/AuditableTransitionException.php',
-        'OwenIt\\Auditing\\Exceptions\\AuditingException' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Exceptions/AuditingException.php',
-        'OwenIt\\Auditing\\Facades\\Auditor' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Facades/Auditor.php',
-        'OwenIt\\Auditing\\Listeners\\RecordCustomAudit' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Listeners/RecordCustomAudit.php',
-        'OwenIt\\Auditing\\Models\\Audit' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Models/Audit.php',
-        'OwenIt\\Auditing\\Redactors\\LeftRedactor' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Redactors/LeftRedactor.php',
-        'OwenIt\\Auditing\\Redactors\\RightRedactor' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Redactors/RightRedactor.php',
-        'OwenIt\\Auditing\\Resolvers\\DumpResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Resolvers/DumpResolver.php',
-        'OwenIt\\Auditing\\Resolvers\\IpAddressResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Resolvers/IpAddressResolver.php',
-        'OwenIt\\Auditing\\Resolvers\\UrlResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Resolvers/UrlResolver.php',
-        'OwenIt\\Auditing\\Resolvers\\UserAgentResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Resolvers/UserAgentResolver.php',
-        'OwenIt\\Auditing\\Resolvers\\UserResolver' => __DIR__ . '/..' . '/owen-it/laravel-auditing/src/Resolvers/UserResolver.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
         'PHPUnit\\Event\\Application\\FinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
         'PHPUnit\\Event\\Application\\Started' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Started.php',
@@ -6495,10 +6426,10 @@ class ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit946f50f92bb8c7e08092d8db02f26b24::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1cf5189ca733aadb2244b96b368b54b6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1cf5189ca733aadb2244b96b368b54b6::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit1cf5189ca733aadb2244b96b368b54b6::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit1cf5189ca733aadb2244b96b368b54b6::$classMap;
 
         }, null, ClassLoader::class);
     }
